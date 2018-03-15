@@ -1,7 +1,4 @@
-class Coordinate:
-    x = 0;
-    y = 0;
-    def __init__(self,x,y):
-        self.x = x
-        self.y = y
+import socket
+
+socket.create_connection(('216.58.218.238', 443))
 
