@@ -42,8 +42,6 @@ tot = 0
 
 for i in range(1,101):
     ret = calc_complexity(i,cmpl)
-    print(i)
-    print(ret)
     cmpl[i] = ret
     tot += ret
     
